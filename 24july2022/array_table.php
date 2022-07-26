@@ -8,7 +8,26 @@
 </head>
 <body>
  
+<?php
+   $division = array("dhaka","sylhet","khulna");
+   ?>
 
+   <table>
+    <tr>
+        <th>Division Name</th>
+    </tr>
+ 
+   <?php
+   foreach($division as $div){?>
+    <tr>
+        <th>  <?php echo $div;?></th>
+    </tr>
+
+   <?php }
+ ?>
+   </table>
+
+   
    <?php
    $students=array("jannat","sultana");
    $students =array( "1269592","jatrabari");

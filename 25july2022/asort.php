@@ -5,7 +5,7 @@ sort($number);
 print_r($number);
 
 
-$division = array("Stkget"=>"surma","Dhaka"=>"borigonga","cumilla"=>"gumti","Khulna"=>"rupsha");
+$division = array("Sylhet"=>"surma","Dhaka"=>"borigonga","cumilla"=>"gumti","Khulna"=>"rupsha");
     asort($division);
     echo "<pre>";
     print_r($division);

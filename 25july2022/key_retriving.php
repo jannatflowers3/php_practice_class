@@ -6,8 +6,7 @@ $famus = array("Bogura"=>"Cart","Cumilla"=>"malai","sylhet"=>"Tea","Dhaka"=>"Bak
 // echo key($famus);
 
 while($famuskey = key($famus)){
-echo $famuskey."<br>"
-;
+echo $famuskey."<br>";
 next($famus);
 }
 ?>
