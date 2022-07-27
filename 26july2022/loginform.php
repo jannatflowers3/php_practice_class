@@ -20,6 +20,9 @@ if(isset($_POST['submit'])){
 if(strlen($name)>8 || strlen($name)<4){
     echo "invalid login name <br>";
 }
+if($name==""||$email==""){
+    echo "enter you name<br>";
+}
 else {
     echo "valid login<br>";
 }
