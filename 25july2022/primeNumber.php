@@ -58,7 +58,7 @@ function primenumber($n){
     
     else{
            for($i=0;$i<$n;$i++){
-            if($i % $i){
+            if($i % $i==0){
                 return $n ."this is not a prime number";
             }
            }
