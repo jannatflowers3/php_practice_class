@@ -7,10 +7,10 @@ class student{
 public $result;
 
 public $line;
-    public function __construct(){
-            $lines = file("userfile.txt");
-            $this->line = $lines;
-    }
+    // public function __construct(){
+    //         $allpara = file("userfile.txt");
+    //         $this->line = $allpara;
+    // }
     public function student_result($myid){
             // $this->id =$myid;
        $data =  file("userfile.txt");
@@ -27,7 +27,8 @@ public $line;
             // echo "<h2>Batch : $batch </h2>";
             // echo "<h2>Result : $pass_fail </h2>";
             // echo korle output ar jonno return dite hoi na
-
+            // construt korle aivabe likhte hobe
+// foreach($this->line as $allpara)
         }
        }
 
