@@ -16,6 +16,17 @@
                 }
                 return $n * number($n-1);
             }
+
+
+            // 2nd nukmber 
+            
+function jannat($n){
+    if($n == 0){
+        return 1;
+    }
+    return $n *jannat($n-1);
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -27,16 +38,29 @@
 </head>
 <body>
     <h1>Factorial Number</h1>
-  <?php
-if(isset($_POST['mysubmit'])){
-    $data =$_POST['mynumber'];
-    echo number($data);
- 
+    <?php
+if(isset($_POST['submit'])){
+    $data= $_POST['id'];
+    echo jannat($data);
 }
+    ?>
+<form action="" method="post">
+    <input type="number" name="id" ><br>
+    <input type="submit" name="submit" value="login">
+</form>
+
+
+
+  <?php
+// if(isset($_POST['mysubmit'])){
+//     $n =$_POST['mynumber'];
+//     echo number($n);
+ 
+// }
   ?>
-    <form action="" method="post">
+    <!-- <form action="" method="post">
         <input type="number" name="mynumber" placeholder="Enter Your factoral number"><br>
         <input type="submit" name ="mysubmit" value="search">
-    </form>
+    </form> -->
 </body>
 </html>
