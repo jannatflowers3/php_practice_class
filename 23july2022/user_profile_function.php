@@ -10,4 +10,12 @@ return $profile;
 // echo "<br>" .$round;
 list($name,$favcour)=jannat();
 echo $favcour;
+
+
+function jannat(){
+    $profile = array("jannat","javca","python","round-51");
+    return $profile;
+}
+list ($x,$y,$z)=jannat();
+echo 
 ?>

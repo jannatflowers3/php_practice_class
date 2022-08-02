@@ -27,6 +27,7 @@ public $line;
             // echo "<h2>Batch : $batch </h2>";
             // echo "<h2>Result : $pass_fail </h2>";
             // echo korle output ar jonno return dite hoi na
+            
             // construt korle aivabe likhte hobe
 // foreach($this->line as $allpara)
         }

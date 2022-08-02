@@ -16,7 +16,7 @@ $student = array(2,3,5,6,7,8);
             echo "$numb . is a even number<br>";
         }
         else{
-            echo "$numb . is a odd number";
+            echo "$numb . is a odd number<br> this is my factorial number";
         }
     }
 
