@@ -1,0 +1,12 @@
+If you’d like certain tags to be ignored, include them in the
+allowable_tags
+parameter. Please note that the allowed tags might contain JavaScript code that could be
+harmfull if the content is served back to the users as part of the website. If user-provided
+content is served back to the website. the HTML should be stripped out or converted to
+HTML entites so they are shown as types and not parsed (executed) as HTML/JavaScript
+by the browser. As an example, consider a scenario in which contributors are expected to
+submit their work in HTML format using a specified subset of HTML tags. Of course, the
+contributors don’t always follow instructions, so the file must be filtered for tag misuse
+before it can be published. With
+fgetss()
+, this is trivia
