@@ -45,10 +45,10 @@ else{
     echo "uploded successfully";
    }
 }
-
 }
-
 ?>
+
+
     <form action="" method="post" enctype="multipart/form-data">
         <input type="file" name="file"><br><br>
         <input type="submit" name = "submit" value="Upload"> 
