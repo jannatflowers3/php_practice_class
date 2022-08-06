@@ -11,7 +11,7 @@
     <?php
   extract($_POST);
   $toemail = "jannatflowersweb@gmail.com";
- if( mail($mail,$subject,$message)){
+ if( mail($toemail,$subject,$message)){
     echo "sent successfully";
  }
 
