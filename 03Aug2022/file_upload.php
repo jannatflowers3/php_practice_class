@@ -15,9 +15,7 @@ if(isset($_POST['submit'])){
 $name = $_FILES['file']['name'];
 $name_ext = explode('.',$name);
 $name_ext = end($name_ext);
-
 $type = $_FILES['file']['type'];
-
 $filetype = array("jpg","png");
 
 $tmp = $_FILES['file']['tmp_name'];
